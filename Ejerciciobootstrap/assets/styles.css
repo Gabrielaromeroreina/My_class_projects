@@ -1,0 +1,111 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    font-size: 80px; 
+    font-weight: 600;
+    line-height: 80px;
+}
+h2{
+    font-size: 48px;
+    margin-left: 70px;
+}
+p,h3 {
+    font-size: 32px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 0 ;
+}
+
+section{
+    padding: 100px 0;
+}
+
+.titulo3{
+    font-size: 45px;
+    
+}
+
+.parrafo2{
+    font-size: 25px;
+    color: black
+
+}
+
+.parrafo3{
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+.nav-link{
+    color: black;
+}
+.logo-mostacho{
+    min-width: 160px;
+    max-width: 140px;
+}
+
+.ham1, .ham2, .ham3, .ham4, .ham5, .ham6{
+    min-width: 200px;
+    max-width: 180px;
+}
+
+#fondo {
+    background-image:url('img/Imagenfondo.jpg');
+    background-size: cover;
+    padding-top: 90px ;
+    min-height: 500px;
+    color:white;  
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+
+}
+
+.restaurante-container{
+    position: relative;
+    overflow: hidden ;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+
+}
+
+.restaurante-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+
+}
+
+.restaurante-details a h2{
+    color: white;
+}
+
+.contacto{
+    background-color: black;
+    color: #fff;
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    h1 {font-size: 40px; line-height: normal;}
+}
+
